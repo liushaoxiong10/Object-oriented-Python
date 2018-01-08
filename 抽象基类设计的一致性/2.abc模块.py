@@ -3,7 +3,6 @@
 __subclasshook__方法需要这3个方法都被实现
 __dict__ 特性用于存储类中定义的方法名和特性名，存储了类的主体
 __mro__  特性中记录了解析方法的顺序，记录了当前类层次结构的顺序
-
 '''
 from abc import ABCMeta, abstractclassmethod
 class AbstractBettingStrategy(metaclass=ABCMeta):
